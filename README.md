@@ -1,8 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Crud Project
+
+## About The Project
+
+The Crud Project is [Next.js](https://nextjs.org/) Simple Registration App bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). This is one of the projects I did on Cod3r's Curso Web Moderno: https://www.cod3r.com.br/courses/web-moderno. The client can Create, Read, Update and Delete a registration.
+
+## Languages
+
+![Tailwind_CSS_Logo svg](https://user-images.githubusercontent.com/90659182/178133490-4bab1e31-2dac-4813-bd16-d364339ab20a.png) ![output-onlinepngtools](https://user-images.githubusercontent.com/90659182/178133530-abb3ab54-944d-499c-816e-017479cfa96d.png) ![next-js-logo-8FCFF51DD2-seeklogo com](https://user-images.githubusercontent.com/90659182/178133507-026d017b-467e-4ae1-8105-851d88f5366a.png)
+
+
+For this project I used TailWind CSS, TypeScript, and the TypeScript/JavaScript framework Next.js.
 
 ## Getting Started
 
-First, run the development server:
+### Requirements
+
+The developer must have those installed in their computer:
+
+* Node.js - v18.4.0;
+* Visual Studio Code - v1.69.0;
+* Git - v2.37.0
+* GitHub extension on VScode;
+
+### How to Install and Use The App
+
+1. Clone this project on VSCode through the address available on this GitHub repository;
+2. Certify that this project is updated (git pull);
+3. On terminal, execute the following command to install all the necessary dependecies: 
+
+```bash
+npm install
+```
+
+4. Again on terminal, execute the following command to run the application:
 
 ```bash
 npm run dev
@@ -10,25 +40,4 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
